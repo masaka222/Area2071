@@ -3,6 +3,7 @@ import './App.css';
 import Header from '../Header/Header';
 import Main1 from '../Main1/Main1';
 import Main2 from '../Main2/Main2';
+import Main3 from '../Main3/Main3';
 
 class App extends Component {
   render() {
