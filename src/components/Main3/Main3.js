@@ -5,7 +5,7 @@ class Main3 extends Component {
   render() {
     return (
       <div className="main3">
-        Header
+        main3
       </div>
     );
   }
