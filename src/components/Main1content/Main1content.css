@@ -1,1 +1,15 @@
-.main1content{}
+.main1content{
+    font-family: serif;
+    font-weight: 600;
+    line-height: 0.9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main1content__title{
+    text-align: right;
+    position: relative;
+    font-size: 10rem;
+}
