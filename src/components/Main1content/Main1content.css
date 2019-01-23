@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transform: translateX(40%);
+    z-index: 1;
 }
 
 .main1content__title{

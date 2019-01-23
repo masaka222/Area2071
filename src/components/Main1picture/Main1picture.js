@@ -7,7 +7,8 @@ class Main1picture extends Component {
   render() {
     return (
       <div className="main1picture">
-        main1picture
+        <img src={imageBig} alt="imageBig" className="main1picture-big"/>
+        <img src={imageSmall} alt="imageSmall" className="main1picture-small"/>
       </div>
     );
   }

@@ -1,0 +1,19 @@
+.main1picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main1picture-big{
+    position: absolute;
+    margin: auto;
+    height: auto;
+    width: 40%;
+}
+
+.main1picture-small{
+    position: absolute;
+    margin: auto;
+    height: auto;
+    width: 15%;
+}
