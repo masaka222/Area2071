@@ -37,3 +37,4 @@ body{
   display: grid;
   grid-template-rows: [header-start] 6rem  [header-end main1-start] calc(100vh - 6rem) [main1-end main2-start] 100vh [main2-end main3-start] 100vh [main3-end]; 
 }
+
