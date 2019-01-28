@@ -7,19 +7,22 @@ import Main3 from '../Main3/Main3';
 
 class App extends Component {
 
+  /* Parallax effect */
   componentDidMount(){
     window.addEventListener("DOMContentLoaded", scrollLoop, false);
 
     var xScrollPosition;
     var yScrollPosition;
 
-    var mainText = document.querySelector(".main1content__title");
+    var mainText = document.querySelector("#main1content");
+    var smallImage = document.querySelector('#imageSmall');
 
     function scrollLoop(e){
       xScrollPosition = window.scrollX;
       yScrollPosition = window.scrollY;
 
-      setTranslate(0, yScrollPosition, mainText);
+      setTranslate(0, yScrollPosition * -0.2, mainText);
+      setTranslate(0, yScrollPosition * -0.3, smallImage);
 
       requestAnimationFrame(scrollLoop);
     }
