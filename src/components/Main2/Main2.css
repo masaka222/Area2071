@@ -1,4 +1,7 @@
 .main2{
     background-color: greenyellow;
     grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: 40vw 60vw;
 }

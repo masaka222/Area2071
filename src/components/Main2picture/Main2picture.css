@@ -1,0 +1,12 @@
+.main2picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2picture-eye{
+    position: absolute;
+    margin: auto;
+    height: auto;
+    width: 23%;
+}
