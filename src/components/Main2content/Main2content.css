@@ -1,0 +1,27 @@
+.main2content{
+    font-family: serif;
+    font-weight: 600;
+    line-height: 0.9;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}
+
+.main2content__title{
+    text-align: left;
+    position: relative;
+    font-size: 3rem;
+}
+
+.main2content__text{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+
+    -moz-column-count: 2;
+    -moz-column-gap: 4rem;
+
+    column-count: 2;
+    column-gap: 4rem;
+}
