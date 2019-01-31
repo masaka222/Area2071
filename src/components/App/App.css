@@ -1,14 +1,11 @@
 :root{
 
-  --color-primary:        #002c37;
-  --color-grey-light-1:   #FAFBFB;
-  --color-grey-light-2:   #DADEE4;
+  --color-black:        #2E2E2E;
+  --color-grey-light:   #DADAD9;
 
-  --color-grey-dark-1:    #AEBAC3;
-  --color-grey-dark-2:    #8998A5;
-  --color-grey-dark-3:    #475560;
+  --color-grey-dark:    rgb(141, 139, 138);
 
-  --color-small-picture:  #f4b6a4;
+  --color-pink:         #f4b6a4;
 
   --font-primary: 'Open Sans', sans-serif;
   --font-title: 'Times New Roman', Times, serif;

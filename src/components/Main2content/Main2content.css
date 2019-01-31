@@ -1,27 +1,35 @@
 .main2content{
     font-family: serif;
     font-weight: 600;
-    line-height: 0.9;
+    line-height: 1.5;
 
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     z-index: 1;
 }
 
 .main2content__title{
-    text-align: left;
+    text-align: justify;
     position: relative;
     font-size: 3rem;
+    margin-right: 15rem;
 }
 
 .main2content__text{
-    margin-top: 3rem;
     font-size: 1.5rem;
-
+    color: var(--color-grey-dark);
     -moz-column-count: 2;
     -moz-column-gap: 4rem;
 
     column-count: 2;
     column-gap: 4rem;
+
+    margin-top: 7rem;
+    margin-right: 15rem;
+    margin-left: 15rem;
+}
+
+.main2content__text-underlined{
+    padding-top: 2rem;
 }
