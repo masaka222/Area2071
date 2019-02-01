@@ -16,6 +16,7 @@ class App extends Component {
 
     var mainText = document.querySelector("#main1content");
     var smallImage = document.querySelector('#imageSmall');
+    var main2Text = document.querySelector("#main2content");
 
     function scrollLoop(e){
       xScrollPosition = window.scrollX;
@@ -23,6 +24,7 @@ class App extends Component {
 
       setTranslate(0, yScrollPosition * -0.2, mainText);
       setTranslate(0, yScrollPosition * -0.3, smallImage);
+      setTranslate(0, yScrollPosition * -0.3, main2Text);
 
       requestAnimationFrame(scrollLoop);
     }
