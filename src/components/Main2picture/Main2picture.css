@@ -4,9 +4,60 @@
     justify-content: center;
 }
 
-.main2picture-eye{
+/* Grey shape behind image */
+
+.main2picture-eye-shape{
+    position: relative;
+    justify-self: center;
+    overflow: hidden;
+    width: 30rem;
+    height: 40rem;
+}
+
+.main2picture-eye-shape::before{
+    content: "";
     position: absolute;
-    margin: auto;
-    height: auto;
-    width: 23%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: var(--color-grey-light);
+    z-index: -1;
+    animation: shapeAnimation 1.3s cubic-bezier(1,0,0,1);
+}
+
+/* Eye image on top of grey shape */
+.main2picture-eye-image{
+    display: block;
+    height: 100%;
+    width: 0;
+    animation: pictureAnimation .25s .65s ease-in forwards;
+}
+
+
+/* ANIMATIONS */
+@keyframes shapeAnimation {
+    0%{
+        transform: scaleY(0);
+    }
+    30%{
+        transform: scaleY(1);
+        width: 10px;
+    }
+    50%{
+        transform: scaleY(1);
+        width: 100%;
+    }
+    100%{
+        transform: scaleY(1);
+        width: 100%;
+    }
+}
+
+@keyframes pictureAnimation {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
 }

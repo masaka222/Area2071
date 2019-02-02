@@ -6,7 +6,9 @@ class Main2picture extends Component {
   render() {
     return (
       <div className="main2picture">
-        <img src={imageEye} alt="imageEye" id = "imageEye" className="main2picture-eye"/>
+        <div className="main2picture-eye-shape">
+          <img src={imageEye} alt="imageEye" id = "imageEye" className="main2picture-eye-image"/>
+        </div>
       </div>
     );
   }
