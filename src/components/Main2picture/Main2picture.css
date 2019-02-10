@@ -6,15 +6,13 @@
 
 /* Grey shape behind image */
 
-.main2picture-eye-shape{
+.picture-shape{
     position: relative;
     justify-self: center;
     overflow: hidden;
-    width: 30rem;
-    height: 40rem;
 }
 
-.main2picture-eye-shape::before{
+.picture-shape::before{
     content: "";
     position: absolute;
     top: 0;
@@ -26,11 +24,18 @@
 }
 
 /* Eye image on top of grey shape */
-.main2picture-eye-image{
+.picture-image{
     display: block;
     height: 100%;
     width: 0;
     animation: pictureAnimation .25s .65s ease-in forwards;
+}
+
+/* Trigger the animations when the object is in view*/
+/* The class hidden hides our objects before we see them*/
+.hiddenShape,
+.hiddenImage{
+    width: 0;
 }
 
 
