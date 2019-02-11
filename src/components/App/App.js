@@ -3,6 +3,7 @@ import './App.css';
 import Header from '../Header/Header';
 import Main1 from '../Main1/Main1';
 import Main2 from '../Main2/Main2';
+import Quote from '../Quote/Quote';
 import Main3 from '../Main3/Main3';
 
 class App extends Component {
@@ -35,6 +36,13 @@ class App extends Component {
     }
 
     /* Functions to Animate pictures when they are in our viewpoint */
+
+    /* What the code is doing: 
+        1. Getting every element that has the class hiddenShape and hiddenImage
+        2. Running a function when the window is scrolled</li>
+        3. Inside the function, calculating the height relative to the viewport
+        4. If the element is inside the viewport, add the classes pictureShape and pictureImage.
+    */
     var animateHTML = function() {
       var elems1;
       var elems2;
@@ -82,6 +90,7 @@ class App extends Component {
         <Header/>
         <Main1/>
         <Main2/>
+        <Quote/>
         <Main3/>
       </div>
     );
