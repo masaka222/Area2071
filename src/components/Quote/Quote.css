@@ -1,4 +1,28 @@
 .quote{
-    background-color: red;
     grid-column: 1 / -1;
+
+    text-align: center;
+    
+    font-family: serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    line-height: 1.4;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote__logo{
+    margin-bottom: 2.5rem;
+}
+
+.quote__maintext1{
+}
+
+.quote__subtext{
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    color: gray;
 }
