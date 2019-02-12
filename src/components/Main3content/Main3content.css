@@ -1,0 +1,26 @@
+.main3content{
+    font-family: serif;
+    font-weight: 600;
+    line-height: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    margin-bottom: -95rem;
+}
+
+.main3content__title{
+    text-align: justify;
+    position: relative;
+    font-size: 4.5rem;
+}
+
+.main3content__text{
+    font-size: 1.5rem;
+    color: var(--color-grey-dark);
+
+    margin-top: 4rem;
+    margin-right: 30rem;
+}

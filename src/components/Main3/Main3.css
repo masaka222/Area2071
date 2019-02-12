@@ -1,4 +1,7 @@
 .main3{
-    background-color: royalblue;
     grid-column: 1 / -1;
+
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 60vw 40vw;
 }
