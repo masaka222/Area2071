@@ -16,6 +16,8 @@ class Main3content extends Component {
               <p>In the space, innovators will meet and use the best technology 
                 of today to design the future
               </p>
+
+              <p className="main3content__text-button"> LEARN MORE &#8594;</p>
           </div>
         </div>
       </div>

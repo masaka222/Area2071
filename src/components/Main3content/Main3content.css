@@ -20,7 +20,15 @@
 .main3content__text{
     font-size: 1.5rem;
     color: var(--color-grey-dark);
+    line-height: 2.5rem;
 
     margin-top: 4rem;
     margin-right: 30rem;
+}
+
+.main3content__text-button{
+    margin-top: 6rem;
+    color: black;
+    letter-spacing: .2rem;
+    cursor: pointer;
 }
