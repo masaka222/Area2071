@@ -17,3 +17,23 @@
     height: auto;
     width: 15%;
 }
+
+.main1picture-orangeLeaf{
+    position: absolute;
+    height: auto;
+    width: 17%;
+    z-index: 2;
+
+    top: 70%;
+    right: 30%;
+}
+
+.main1picture-redLeaf{
+    position: absolute;
+    height: auto;
+    width: 17%;
+    z-index: 2;
+
+    top: 23%;
+    right: 50%;
+}
