@@ -8,7 +8,12 @@
     justify-content: center;
     z-index: 1;
 
-    margin-bottom: -95rem;
+    margin-bottom: -110rem;
+
+    background-image: url(./topo.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
 }
 
 .main3content__title{

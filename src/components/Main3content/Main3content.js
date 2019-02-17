@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Main3content.css';
-
+import topo from './topo.png';
 
 class Main3content extends Component {
   render() {
