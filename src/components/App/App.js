@@ -10,7 +10,7 @@ class App extends Component {
 
   componentDidMount(){
 
-      /* Parallax effect */
+    /* Parallax effect */
     window.addEventListener("DOMContentLoaded", scrollLoop, false);
 
     var xScrollPosition;
@@ -20,6 +20,8 @@ class App extends Component {
     var smallImage = document.querySelector('#imageSmall');
     var main2Text = document.querySelector("#main2content");
     var main3Text = document.querySelector("#main3content");
+    var orangeLeaf = document.querySelector("#orangeLeaf");
+    var redLeaf = document.querySelector("#redLeaf");
 
     function scrollLoop(e){
       xScrollPosition = window.scrollX;
@@ -29,6 +31,8 @@ class App extends Component {
       setTranslate(0, yScrollPosition * -0.3, smallImage);
       setTranslate(0, yScrollPosition * -0.3, main2Text);
       setTranslate(0, yScrollPosition * -0.3, main3Text);
+      setTranslate(0, yScrollPosition * -0.1, orangeLeaf);
+      setTranslate(0, yScrollPosition * -0.1, redLeaf);
 
       requestAnimationFrame(scrollLoop);
     }
