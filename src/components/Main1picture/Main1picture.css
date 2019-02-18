@@ -37,3 +37,12 @@
     top: 23%;
     right: 50%;
 }
+
+@media only screen and (max-width: 885px){
+    .main1picture{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+
+        opacity: 0.5;
+    }
+}

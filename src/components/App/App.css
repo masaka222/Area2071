@@ -37,3 +37,20 @@ body{
   grid-template-rows: [header-start] 6rem  [header-end main1-start] calc(100vh - 6rem) [main1-end main2-start] 100vh [main2-end quote-start] 40vh [quote-end main3-start] 100vh [main3-end]; 
 }
 
+@media only screen and (max-width: 1234px){
+  html{
+      font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 995px){
+  html{
+      font-size: 35%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  html{
+      font-size: 25%;
+  }
+}
