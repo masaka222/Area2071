@@ -4,3 +4,10 @@
     display: grid;
     grid-template-columns: 40vw 60vw;
 }
+
+@media only screen and (max-width: 885px){
+    .main2{
+        display: grid;
+        grid-template-columns: 25vw 25vw 25vw 25vw;
+    }
+}

@@ -8,10 +8,7 @@
 
 @media only screen and (max-width: 885px){
     .main1{
-        background-color: white;
-        grid-column: 1 / -1;
-    
         display: grid;
         grid-template-columns: 25vw 25vw 25vw 25vw;
     }
-  }
+}

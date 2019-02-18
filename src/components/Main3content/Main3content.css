@@ -37,3 +37,24 @@
     letter-spacing: .2rem;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 885px){
+    .main3content{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+
+        display: flex;
+        align-items: center;
+
+        background-image: none;
+    }
+
+    .main3content__text{
+        color: black;
+        margin-right: 0rem;
+    }
+
+    .main3content__title{
+        text-align: center;
+    }
+}

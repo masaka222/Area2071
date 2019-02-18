@@ -38,6 +38,14 @@
     width: 0;
 }
 
+@media only screen and (max-width: 885px){
+    .main2picture{
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+
+        opacity: 0.5;
+    }
+}
 
 /* ANIMATIONS */
 @keyframes shapeAnimation {
