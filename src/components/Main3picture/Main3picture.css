@@ -5,9 +5,16 @@
 
 @media only screen and (max-width: 885px){
     .main3picture{
-        grid-column: 2 / 4;
+        grid-column: 1 / 3;
         grid-row: 1 / 2;
 
         opacity: 0.5;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .main3picture{
+        grid-column: 1 / 3;
+        grid-row: 1 / 2;
     }
 }
